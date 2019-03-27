@@ -1,4 +1,4 @@
-FROM maven:alpine
+FROM markhobson/maven-chrome
 
 COPY pom.xml /app/pom.xml
 
